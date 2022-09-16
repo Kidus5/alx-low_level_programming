@@ -2,7 +2,7 @@
 
 /**
  * main - print numbers form 1 - 100 if Multiple of 3 Fizz
- * 	Multiple of 5 Buzz and Multiple of both Fizzbuzz
+ *	Multiple of 5 Buzz and Multiple of both Fizzbuzz
  *
  * Return: Always 0.
  */
