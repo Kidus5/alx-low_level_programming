@@ -9,6 +9,7 @@
 void puts_half(char *str)
 {
 	int n, len;
+
 	len = _strlen(str);
 
 	if (len % 2 == 0)
@@ -24,6 +25,12 @@ void puts_half(char *str)
 	_putchar('\n');
 }
 
+/**
+ * _strlen - finds the length of a string
+ * @s: the string
+ *
+ * Return: the length of a string
+ */
 int _strlen(char *s)
 {
 	int len;
