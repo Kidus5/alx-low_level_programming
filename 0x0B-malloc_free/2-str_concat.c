@@ -13,7 +13,7 @@ char *str_concat(char *s1, char *s2)
 	char *ptr;
 	int i, j;
 
-	ptr = malloc(sizeof(s1) + sizeof(s2) + 6);
+	ptr = malloc(sizeof(s1) + sizeof(s2));
 	if (ptr == NULL)
 		return (NULL);
 	if (s1 == NULL || s2 == NULL)
@@ -25,6 +25,5 @@ char *str_concat(char *s1, char *s2)
 		ptr[i] = s2[j];
 		i++;
 	}
-	ptr[i] = '\0';
 	return (ptr);
 }
