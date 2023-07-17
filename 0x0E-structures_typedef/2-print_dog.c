@@ -1,6 +1,7 @@
 #include "dog.h"
 
 /**
+ * print_dog - print dog name age and owner
  * @d: a structure for a dog
  *
  * Return: Nothing
